@@ -7,3 +7,17 @@ For the mitigation of the threat of pollution, round-the-clock measurement of at
 
 The above image compares the predicted cocncetration patterns of different models such as Linear Regresssion, LightGBM and XGBoost against that of convolutional neural networks.
 The dataset used for the study can be accessed at : https://www.kaggle.com/bibhash123/grsldata
+
+
+## Files In the Repository
+<pre>
+./
++-- README.md
+|+--- <b>Model Training</b>
+|    +----------- <i>GRSL_Model_Training.ipynb</i>: Training of convolutional neural network for the dataset
+|+--- <b>Data-Preparation</b>
+|    +----------- <i>Data_Preparation_GRSL.ipynb</i>: Pipeline to perform the gridding procedure for the dataset
+|+--- <b>Benchmarking</b>
+|    +----------- <i>GRSL_Benchmarking.ipynb</i>: Benchmarking of convolutional neural network against linear regression, xgboost and lgbm.
+
+</pre>
